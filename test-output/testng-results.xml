@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Google API Task" duration-ms="12710" started-at="2021-06-16T01:27:35 IST" finished-at="2021-06-16T01:27:48 IST">
+    <groups>
+    </groups>
+    <test name="CURD For the Google API" duration-ms="12710" started-at="2021-06-16T01:27:35 IST" finished-at="2021-06-16T01:27:48 IST">
+      <class name="com.pickMySolar.tests.GoogleDriveHandling">
+        <test-method status="PASS" signature="configurationOfTests()[pri:0, instance:com.pickMySolar.tests.GoogleDriveHandling@5e853265]" name="configurationOfTests" is-config="true" duration-ms="8" started-at="2021-06-16T01:27:35 IST" finished-at="2021-06-16T01:27:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurationOfTests -->
+        <test-method status="PASS" signature="createFolderInGoogleDrive()[pri:0, instance:com.pickMySolar.tests.GoogleDriveHandling@5e853265]" name="createFolderInGoogleDrive" duration-ms="3496" started-at="2021-06-16T01:27:35 IST" finished-at="2021-06-16T01:27:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFolderInGoogleDrive -->
+        <test-method status="PASS" signature="createFileInsideFolder()[pri:1, instance:com.pickMySolar.tests.GoogleDriveHandling@5e853265]" name="createFileInsideFolder" duration-ms="1299" started-at="2021-06-16T01:27:39 IST" finished-at="2021-06-16T01:27:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFileInsideFolder -->
+        <test-method status="PASS" signature="getafileFromFolder()[pri:2, instance:com.pickMySolar.tests.GoogleDriveHandling@5e853265]" name="getafileFromFolder" duration-ms="755" started-at="2021-06-16T01:27:40 IST" finished-at="2021-06-16T01:27:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getafileFromFolder -->
+        <test-method status="PASS" signature="deletefileFromFolder()[pri:3, instance:com.pickMySolar.tests.GoogleDriveHandling@5e853265]" name="deletefileFromFolder" duration-ms="2372" started-at="2021-06-16T01:27:41 IST" finished-at="2021-06-16T01:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletefileFromFolder -->
+        <test-method status="PASS" signature="deleteFolderfromDrive()[pri:4, instance:com.pickMySolar.tests.GoogleDriveHandling@5e853265]" name="deleteFolderfromDrive" duration-ms="4761" started-at="2021-06-16T01:27:43 IST" finished-at="2021-06-16T01:27:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFolderfromDrive -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.pickMySolar.tests.GoogleDriveHandling@5e853265]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-06-16T01:27:53 IST" finished-at="2021-06-16T01:27:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.pickMySolar.tests.GoogleDriveHandling -->
+    </test> <!-- CURD For the Google API -->
+  </suite> <!-- Google API Task -->
+</testng-results>
